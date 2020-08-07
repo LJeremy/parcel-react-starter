@@ -14,7 +14,7 @@
   "author": "Lars <“lars@keytoe.nl”> (https://lars.coffee)",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^8.5.0",
+    "autoprefixer": "^9.8.6",
     "babel-preset-env": "^1.7.0",
     "node-sass": "^4.9.0",
     "postcss-modules": "^1.1.0",
