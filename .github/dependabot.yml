@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: autoprefixer
+    versions:
+    - 10.2.4
+  - dependency-name: react
+    versions:
+    - 17.0.1
+  - dependency-name: postcss-modules
+    versions:
+    - 3.2.2
